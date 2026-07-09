@@ -1,16 +1,5 @@
 # Apache_Kafka_Interview_Questions
 
-
-ROADMAP
-			
-
-			
-
-
-			
-
-						
-
 What is Kafka 
 Kafka is an distributed Event streaming platform used for asynchronous communication between services.
 
@@ -22,11 +11,6 @@ Producer sends messages to a topic → Topic is divided into partitions → Mess
 
 Why Kafka over Rest 
 REST APIs are synchronous and tightly coupled—you have to call each API and wait for its response. Kafka is asynchronous and loosely coupled—you send one message, and multiple services process it independently at the same time.
-
-
-
-
-
 
 1. Producer :- Sends data (messages) to Kafka topics.                                                                                                      
 2. Topic :- Acts as a mediator and stores data between producers and consumers. 
@@ -195,9 +179,6 @@ I worked on Kafka producers and consumers, handling message processing, retries,
 
 🎯 FINAL INTERVIEW LINE
 	Kafka is a distributed event streaming platform where producers send messages to topics, which are divided into partitions for scalability. Consumers in consumer groups process messages using offsets. We handle failures using retries, idempotency, and dead letter queues.
-
-====================================================================================================
-
 
 	1. How do you troubleshoot if yr consumer lag is increasing ? I would check consumer lag, consumer logs, and identify any slow processing, database, or external API bottlenecks.
 	
